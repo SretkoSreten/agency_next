@@ -95,17 +95,10 @@ const Header = () => {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between p-6 lg:px-8">
         <div className="flex flex-1">
-          <Link href="/" className="-m-1.5 p-1.5">
-            <Image
-              className="h-10 w-auto"
-              src={segment === null ? image.webdevWhite : image.logo}
-              alt=""
-              width={250}
-              height={70}
-            />
+          <Link href="/" className="-m-1.5 uppercase text-2xl text-white font-medium p-1.5">
+            Agency
           </Link>
         </div>
-
         <div
           className={`hidden md:flex justify-center items-center gap-0 lg:gap-7 ${
             segment === null ? "text-[#eeeeee]" : "text-gray-900 "

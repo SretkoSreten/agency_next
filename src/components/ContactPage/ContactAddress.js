@@ -1,5 +1,5 @@
-"use client"
-import { motion } from 'framer-motion'
+"use client";
+import { motion } from "framer-motion";
 import image from "@/constant/Images/image";
 import Image from "next/image";
 import "./ContactAddress.css";
@@ -33,7 +33,9 @@ const ContactAddress = () => {
     <section className="contact-us-wrapper py-16 md:py-32 bg-slate-50">
       <div className="app__container contact-heading text-center mx-w-700 m-auto pb-50 pb-md-30 get-bottom animate">
         <div className="section-title pb-25 animate">
-          <h2 className="text-3xl primary-heading capitalize">Contact us for any <span className="highlight">help</span></h2>
+          <h2 className="text-3xl primary-heading capitalize">
+            Contact us for any <span className="highlight">help</span>
+          </h2>
         </div>
         <p className="pt-4 app__text">
           How many days to promote for accurate response, How to manage the
@@ -41,14 +43,19 @@ const ContactAddress = () => {
         </p>
       </div>
       <div className="app__container mt-8">
-        <motion.div variants={variants} initial="hidden" whileInView="show" className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <motion.div
+          variants={variants}
+          initial="hidden"
+          whileInView="show"
+          className="grid grid-cols-1 md:grid-cols-3 gap-8"
+        >
           <motion.div variants={items}>
             <div className="contact-card common-single-card h4-offer-card paste-hover bg-white flex justify-center items-center flex-col shadow-md">
               <div className="contact-card-icon card-paste svg-paste p-6 drop-shadow-lg">
                 <Image src={image.call} alt="call" />
               </div>
               <div className="contact-card-content mt-4">
-                <h6 className='font-semibold'>+91-1234567890 </h6>
+                <h6 className="font-semibold">+386-1234567890 </h6>
               </div>
             </div>
           </motion.div>
@@ -58,7 +65,7 @@ const ContactAddress = () => {
                 <Image src={image.chat} alt="chat" />
               </div>
               <div className="contact-card-content mt-4">
-                <h6 className='font-semibold'>info@WebDev.com</h6>
+                <h6 className="font-semibold">sretenperic3000@gmail.com</h6>
               </div>
             </div>
           </motion.div>
@@ -68,10 +75,10 @@ const ContactAddress = () => {
                 <Image src={image.placeholder} alt="placeholder" />
               </div>
               <div className="contact-card-content mt-4">
-                <h6 className='font-semibold'>
-                  Sector 63, Noida,
+                <h6 className="font-semibold text-center">
+                  Smetanova,
                   <br />
-                  UP, India - 201301
+                  Maribor
                 </h6>
               </div>
             </div>

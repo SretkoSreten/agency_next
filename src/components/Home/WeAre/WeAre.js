@@ -24,11 +24,18 @@ const WeAre = () => {
           <div className="">
             <div className="we-are-content">
               <div className="section-title">
-                <h2 className="pb-12 primary-heading">We Are Digital <span className="highlight">Explorers</span></h2>
+                <h2 className="pb-12 primary-heading">
+                  We Are Digital <span className="highlight">Explorers</span>
+                </h2>
               </div>
 
               <p className="app__text pb-10">
-              Everyone has gone digital with this era and so has gone the ways of promoting your work, business, and lifestyle. Digital Marketing is the boon we are talking about. WebDev Private Limited provides such convenience to you. Now that you know about digital marketing do you have the time and energy to make attractive slogans, digital posters, and attention-seeking layouts?
+                Everyone has gone digital with this era and so has gone the ways
+                of promoting your work, business, and lifestyle. Digital
+                Marketing is the boon we are talking about. Now that you know
+                about digital marketing do you have the time and energy to make
+                attractive slogans, digital posters, and attention-seeking
+                layouts?
               </p>
               <div>
                 <Link href="/about">

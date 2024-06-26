@@ -53,7 +53,7 @@ export default function ContactForm({ heading, color }) {
                   <span className="text-green-600">
                     <FaPhoneSquareAlt />
                   </span>{" "}
-                  +91-1234567890
+                  +386-1234567890
                 </a>
                 <a
                   className="text-sm text-gray-600 text-sbold flex items-center justify-center md:justify-start gap-2"
@@ -62,7 +62,7 @@ export default function ContactForm({ heading, color }) {
                   <span className="text-[#EA4335]">
                     <FaEnvelope />
                   </span>{" "}
-                  info@WebDev.com
+                  sretenperic3000@gmail.com
                 </a>
               </div>
 

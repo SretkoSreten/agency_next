@@ -33,13 +33,9 @@ const AboutUs = () => {
                 strategies with their innovative brains, and of course, the team
                 shapes the ideas into reality. With 8 years of web and app
                 development skills, we have worked on 100+ Internet development
-                projects.<br/>We are a part of BroLabs Innovation Pvt. Ltd., and we
-                are 38 people working together as a team with just one goal: to
-                take your business to a new level. We are the bridge between you
-                and the customers. We create long-term relationships and love.
-                We paint the roses in your picture. Here! At WebDev Private
-                Limited Why don&apos;t you visit us and let&apos;s make a
-                beautiful India together?
+                projects. We are the bridge between you and the customers. We
+                create long-term relationships and love. We paint the roses in
+                your picture.
               </p>
               <div>
                 <a href="#">
